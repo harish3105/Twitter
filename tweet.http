@@ -1,0 +1,14 @@
+DELETE http://localhost:3000/tweets/:tweetId/
+
+#######
+
+GET http://localhost:3000/tweets/:tweetId/replies/
+
+###########
+
+
+GET http://localhost:3000/tweets/:tweetId/likes/
+
+#########
+
+

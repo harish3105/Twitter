@@ -1,0 +1,25 @@
+GET http://localhost:3000/user/tweets/feed/
+
+#############
+
+
+GET http://localhost:3000/user/following/
+
+######
+
+GET http://localhost:3000/user/followers/
+
+#########
+
+
+POST http://localhost:3000/user/tweets/
+{
+   "tweet": "The Mornings..."
+}
+
+#####
+
+GET http://localhost:3000/user/tweets/
+
+#######
+
